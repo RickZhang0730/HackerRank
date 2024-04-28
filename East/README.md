@@ -29,9 +29,8 @@ The elements added to the list must be integers.
 Output Format
 
 For each command of type print, print the list on a new line.
-
+```
 Sample Input 0
-
 12
 insert 0 5
 insert 1 10
@@ -45,12 +44,13 @@ print
 pop
 reverse
 print
+```
+```
 Sample Output 0
-
 [6, 5, 10]
 [1, 5, 9, 10]
 [9, 5, 1]
-
+```
 ```
 if __name__ == '__main__':
     N = int(input())
