@@ -12,10 +12,6 @@ Initialize your list and read in the value of  followed by  lines of commands wh
 
 Example
 
-
-
-
-
 : Append  to the list, .
 : Append  to the list, .
 : Insert  at index , .
@@ -55,7 +51,7 @@ Sample Output 0
 [1, 5, 9, 10]
 [9, 5, 1]
 
-'''
+```
 if __name__ == '__main__':
     N = int(input())
     index=[]
@@ -76,4 +72,4 @@ if __name__ == '__main__':
             index.pop()
         elif command[0] == 'reverse':
             index.reverse()
-'''
+```
